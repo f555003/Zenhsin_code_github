@@ -4,7 +4,7 @@
  * @Author: Mu-Hsin,Wu
  * @Date: 2021-06-01 12:22:18
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-06-02 22:47:07
+ * @LastEditTime: 2021-06-03 11:12:47
  */
 #include<stdio.h>
 #include<string.h>
@@ -44,7 +44,7 @@ int main()
     //     printf("i = %d\n",l);
     //     l++;
     // }
-
+    // // while loop
     // char name[10] ="";
     // // strcmp(name,"exit") != 0 兩種寫法
     // // while ( strcmp(name,"exit") != 0)
@@ -61,20 +61,36 @@ int main()
     // getchar();
     // getchar();
     
+    // // do while loop example
+    // int c = 1;
+    // int max = 5;
+    // do
+    // {
+    //     /* code */
+    //     printf("hellow world\n");
+    //     c++;
+    // } while (c < max); // notice [ ; ]
+    
+
+
+
+
+
+
     // 邏輯判別
-    int i = 0;
-    int j = 1;
-    int k = 0;
-    printf("i = %d\tj = %d\tk = %d\n",i,j,k);
-    printf("i == j -->%d\n",i==j);
-    printf("i != j -->%d\n",i!=j);
-    printf("i != k -->%d\n",i!=k);
+    // int i = 0;
+    // int j = 1;
+    // int k = 0;
+    // printf("i = %d\tj = %d\tk = %d\n",i,j,k);
+    // printf("i == j -->%d\n",i==j);
+    // printf("i != j -->%d\n",i!=j);
+    // printf("i != k -->%d\n",i!=k);
     // 問題 strcmp VS strncmp -->多了 [ n ]
     // strcmp(string1,string2)比較兩個string,
     // strncmp(string1,string2,n)則只比較前n個字元
     // 若是string1 若是string1=string2則傳回值=0,
     // 若是string1>string2則傳回值>0,
 
-    
+    getchar();
     return 0;
 }
