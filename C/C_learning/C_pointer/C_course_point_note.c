@@ -4,9 +4,10 @@
  * @Author: Mu-Hsin,Wu
  * @Date: 2021-05-23 15:52:23
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-05-23 18:01:46
+ * @LastEditTime: 2021-06-24 22:10:46
  */
 #include <stdio.h>
+//int *p; ¦Pµ¥©ó int* p;
 
 
 int main()

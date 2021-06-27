@@ -4,13 +4,13 @@
  * @Author: Mu-Hsin,Wu
  * @Date: 2021-06-24 16:29:19
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-06-24 17:15:01
+ * @LastEditTime: 2021-06-24 17:20:38
  */
 #include<stdio.h>
 const int MAX = 3;
 int main()
 {
-    int var[]={10,100,1000}
+    int var[]={10,100,1000};
     int i;
     int *ptr[3]; // 此為重點，表示說 ptr 創建 3 個指針陣列
     /*
@@ -48,7 +48,8 @@ int main()
 
     for ( i = 0; i < MAX; i++)/*指針陣列來獲取各個值*/
     {
-        printf("Value of var[%d] = %d\n", i, *ptr[i]);
+        printf("Value of var[%d] = %d\t", i, *ptr[i]);
+        printf("ptr[%d] 地址%p\tptr[%d]指向的地址%p\n",i ,&ptr[i] ,i ,ptr[i]);
     }
     
     return 0;
